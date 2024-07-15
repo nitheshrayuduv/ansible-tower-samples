@@ -4,4 +4,6 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-
+    - name: Pause for 5 minutes to build app cache
+      ansible.builtin.pause:
+        minutes: 5
